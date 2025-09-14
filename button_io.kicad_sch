@@ -1,0 +1,320 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "0fd4232f-dd69-4df7-a35d-3e9d2dd3ea7c")
+	(paper "A4")
+	(lib_symbols)
+	(wire
+		(pts
+			(xy 55.88 58.42) (xy 68.58 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b4e5fa-a321-4627-923e-36b187af01ab")
+	)
+	(wire
+		(pts
+			(xy 55.88 86.36) (xy 68.58 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e6894f3-9f27-4341-9114-26699889946a")
+	)
+	(wire
+		(pts
+			(xy 55.88 72.39) (xy 68.58 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53d81a35-88c4-4b59-a20b-e60d4f8b5894")
+	)
+	(wire
+		(pts
+			(xy 99.06 86.36) (xy 107.95 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0bc742f-ed70-4d94-92b8-61c319826707")
+	)
+	(wire
+		(pts
+			(xy 99.06 58.42) (xy 107.95 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d1250305-8257-4f92-b39a-63a93bd47999")
+	)
+	(wire
+		(pts
+			(xy 99.06 72.39) (xy 107.95 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e362e955-ca35-475a-bace-43d698896a6f")
+	)
+	(hierarchical_label "BUT_IN_02"
+		(shape input)
+		(at 55.88 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "336883b3-3df2-4098-b7f1-a52ab809a9cc")
+	)
+	(hierarchical_label "BUT_OUT_03"
+		(shape output)
+		(at 107.95 86.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "43ab7efb-d8be-4a51-9ffb-0c9a2ba904c5")
+	)
+	(hierarchical_label "BUT_IN_01"
+		(shape input)
+		(at 55.88 58.42 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "639cfa2b-9716-40ba-9edc-e845f635aac1")
+	)
+	(hierarchical_label "BUT_OUT_02"
+		(shape output)
+		(at 107.95 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8bc32d16-5b25-4aaf-b905-0fd23c4b104c")
+	)
+	(hierarchical_label "BUT_IN_03"
+		(shape input)
+		(at 55.88 86.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "917cb4b8-0cad-46b1-bf4c-5b3779d65f5c")
+	)
+	(hierarchical_label "BUT_OUT_01"
+		(shape output)
+		(at 107.95 58.42 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6757687-dd75-4b15-ac3c-9e16421be060")
+	)
+	(sheet
+		(at 68.58 68.58)
+		(size 30.48 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "1b213c25-d2ee-4039-b440-713ca9411fa9")
+		(property "Sheetname" "Button 2"
+			(at 68.58 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button_sub.kicad_sch"
+			(at 68.58 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BUT_IN" input
+			(at 68.58 72.39 180)
+			(uuid "1096d809-aeaa-4b42-b6a1-0c1223dc1b43")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUT_OUT" output
+			(at 99.06 72.39 0)
+			(uuid "34f464aa-b8d0-4a13-89ed-52d956046a1f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "stopnu-hardware"
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/2279bf67-9a91-44f0-b5c7-36e7b6560aca"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 82.55)
+		(size 30.48 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "966e223a-98da-4719-87d2-fe9fc7de1219")
+		(property "Sheetname" "Button 3"
+			(at 68.58 81.8384 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button_sub.kicad_sch"
+			(at 68.58 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BUT_IN" input
+			(at 68.58 86.36 180)
+			(uuid "af4216ed-8e60-4aa4-bae3-7b541856dd57")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUT_OUT" output
+			(at 99.06 86.36 0)
+			(uuid "0b587c9f-38c1-4bf9-93bb-b0964b437abe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "stopnu-hardware"
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/2279bf67-9a91-44f0-b5c7-36e7b6560aca"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 68.58 54.61)
+		(size 30.48 7.62)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "fcd7be72-9c9e-4717-8056-7ec02dc0e81d")
+		(property "Sheetname" "Button 1"
+			(at 68.58 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "button_sub.kicad_sch"
+			(at 68.58 62.8146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "BUT_IN" input
+			(at 68.58 58.42 180)
+			(uuid "77ce3933-55a1-4059-a535-f206598cddd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUT_OUT" output
+			(at 99.06 58.42 0)
+			(uuid "3cff3134-ba0a-4413-bcba-d82efe7e2dc0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "stopnu-hardware"
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/2279bf67-9a91-44f0-b5c7-36e7b6560aca"
+					(page "7")
+				)
+			)
+		)
+	)
+)
