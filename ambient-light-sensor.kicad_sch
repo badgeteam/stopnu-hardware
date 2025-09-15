@@ -5,113 +5,6 @@
 	(uuid "913abd1c-2487-4915-a812-e255fb7dd429")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -843,10 +736,10 @@
 		(uuid "45272dc0-f380-4d90-97af-97f08784151a")
 	)
 	(junction
-		(at 135.89 110.49)
+		(at 125.73 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "11c65231-812d-4195-85b1-956ddebe5585")
+		(uuid "6932f6ed-1946-4191-a5e8-4ff35331bdc7")
 	)
 	(junction
 		(at 115.57 110.49)
@@ -894,6 +787,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 97.79) (xy 125.73 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22319ec2-e279-499d-8a93-28579f850199")
+	)
+	(wire
+		(pts
 			(xy 125.73 120.65) (xy 125.73 121.92)
 		)
 		(stroke
@@ -934,7 +837,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 110.49) (xy 135.89 110.49)
+			(xy 125.73 110.49) (xy 147.32 110.49)
 		)
 		(stroke
 			(width 0)
@@ -944,7 +847,7 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 95.25) (xy 125.73 99.06)
+			(xy 125.73 95.25) (xy 125.73 97.79)
 		)
 		(stroke
 			(width 0)
@@ -971,6 +874,16 @@
 			(type default)
 		)
 		(uuid "acfb7609-f9e3-4f90-9f25-a3d8872a96d1")
+	)
+	(wire
+		(pts
+			(xy 125.73 97.79) (xy 147.32 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2c3fd9d-b4b6-4087-9900-7004078d8107")
 	)
 	(wire
 		(pts
@@ -1011,16 +924,6 @@
 			(type default)
 		)
 		(uuid "e79c0f54-7ef0-4f50-a9cd-f84a573ef7b5")
-	)
-	(wire
-		(pts
-			(xy 135.89 110.49) (xy 147.32 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f5cbcc39-1e10-4011-8c91-7b413b39f44a")
 	)
 	(image
 		(at 243.84 48.895)
@@ -2314,8 +2217,19 @@
 			)
 		)
 	)
-	(hierarchical_label "V_AMLIGHT"
-		(shape input)
+	(hierarchical_label "V_AMLIGHT_COL"
+		(shape output)
+		(at 147.32 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "65859129-c58f-42d7-a071-64274c97eeda")
+	)
+	(hierarchical_label "V_AMLIGHT_EM"
+		(shape output)
 		(at 147.32 110.49 0)
 		(effects
 			(font
@@ -2399,73 +2313,6 @@
 			(project ""
 				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/7b0869a3-a922-42ed-84a7-59d61dea9664"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 135.89 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "27af01c7-133f-47cf-9c92-1c4dae0ee60a")
-		(property "Reference" "TP6"
-			(at 138.43 105.9179 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 138.43 108.4579 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 140.97 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 135.89 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1852b387-a183-4a9d-ac31-cc40fe7ff8de")
-		)
-		(instances
-			(project "stopnu-hardware"
-				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/7b0869a3-a922-42ed-84a7-59d61dea9664"
-					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -2556,8 +2403,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "53dc011c-9ce1-48be-902e-3d409b924b40")
 		(property "Reference" "Q1"

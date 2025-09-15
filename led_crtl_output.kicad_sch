@@ -792,7 +792,7 @@
 		(uuid "3dde6c2c-4465-4575-87b6-fdb258cd4ab7")
 	)
 	(hierarchical_label "DOUT"
-		(shape input)
+		(shape output)
 		(at 121.92 62.23 0)
 		(effects
 			(font

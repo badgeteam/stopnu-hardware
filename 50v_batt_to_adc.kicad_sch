@@ -1318,8 +1318,8 @@
 		)
 		(uuid "91e11265-68e0-468e-b8a8-4dc93527b675")
 	)
-	(hierarchical_label "VBATT_OUT_3V3"
-		(shape input)
+	(hierarchical_label "VBATT_LVL_OUT_LOW"
+		(shape output)
 		(at 189.23 80.01 0)
 		(effects
 			(font

@@ -662,12 +662,12 @@
       "Button 2"
     ],
     [
-      "8dddb553-bb71-4d14-8f8b-c1b446e0dbb3",
-      "MCU"
-    ],
-    [
       "b19922b5-b274-4778-931e-95ff57c7d649",
       "battery_50v_to_adc"
+    ],
+    [
+      "8dddb553-bb71-4d14-8f8b-c1b446e0dbb3",
+      "MCU"
     ],
     [
       "966e223a-98da-4719-87d2-fe9fc7de1219",
