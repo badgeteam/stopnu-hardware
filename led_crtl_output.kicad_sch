@@ -5,179 +5,6 @@
 	(uuid "e4402b8e-13bc-45be-aad8-4a6318d965c0")
 	(paper "A4")
 	(lib_symbols
-		(symbol "74xGxx:74LVC1G125"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -10.16 7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "74LVC1G125"
-				(at 2.54 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn74lvc1g125.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Single Buffer Gate Tri-State, Low-Voltage CMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Single Gate Buff Tri-State LVC CMOS"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SOT?23* Texas?R-PDSO-G5?DCK* Texas?R-PDSO-N5?DRL* Texas?X2SON*0.8x0.8mm*P0.48mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "74LVC1G125_0_1"
-				(polyline
-					(pts
-						(xy -7.62 6.35) (xy -7.62 -6.35) (xy 5.08 0) (xy -7.62 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "74LVC1G125_1_1"
-				(pin input line
-					(at -15.24 0 0)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 10.16 270)
-					(length 5.08)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 -10.16 90)
-					(length 5.08)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input inverted
-					(at 0 10.16 270)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin tri_state line
-					(at 12.7 0 180)
-					(length 7.62)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -435,6 +262,178 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "lcsc:74HCT1G125GW-Q100H"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "74HCT1G125GW-Q100H"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "lcsc:TSSOP-5_L2.1-W1.3-P0.65-LS2.2-BL"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/presales_Nexperia-74HCT1G125GW-Q100H_C547449.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C547449"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "74HCT1G125GW-Q100H_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -3.81 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "~{OE}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 2.54 180)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "Y"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -663,36 +662,52 @@
 		)
 	)
 	(junction
-		(at 91.44 62.23)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "28f9432c-a3aa-4286-81ec-33475284d4c6")
-	)
-	(junction
-		(at 101.6 62.23)
+		(at 99.06 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "29f95ae1-5111-4239-91b0-5c07c14bf053")
 	)
 	(junction
-		(at 85.09 69.85)
+		(at 88.9 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "81278115-26d4-4fe3-ab9b-7867fe8b4027")
+		(uuid "433828fd-2af9-40ad-b130-50e1ff5d6e91")
+	)
+	(junction
+		(at 59.69 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7421858b-e9c0-4d28-9f6b-ee4db9bf942f")
+	)
+	(junction
+		(at 72.39 69.85)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "874baa73-e209-4ff5-9f4d-2e46ebdcc056")
 	)
 	(wire
 		(pts
-			(xy 80.01 52.07) (xy 80.01 69.85)
+			(xy 59.69 55.88) (xy 63.5 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "0a3d8fb9-dcc3-4b66-b1f8-182049b23b8d")
+		(uuid "081e6cf8-8b75-4c45-86b7-0e5bd3bbbd37")
 	)
 	(wire
 		(pts
-			(xy 101.6 62.23) (xy 121.92 62.23)
+			(xy 72.39 69.85) (xy 88.9 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d525b53-0b5f-4b08-b32c-4f918af1939a")
+	)
+	(wire
+		(pts
+			(xy 99.06 60.96) (xy 119.38 60.96)
 		)
 		(stroke
 			(width 0)
@@ -702,27 +717,17 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 49.53) (xy 60.96 52.07)
+			(xy 59.69 69.85) (xy 72.39 69.85)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1f66f524-0d9a-4027-80f3-7021376b0b04")
+		(uuid "1af4cd11-4367-44af-8347-4573c7b42525")
 	)
 	(wire
 		(pts
-			(xy 80.01 69.85) (xy 85.09 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e7d11c3-5e96-4728-924f-8f6f1dad5fc9")
-	)
-	(wire
-		(pts
-			(xy 85.09 74.93) (xy 85.09 69.85)
+			(xy 72.39 71.12) (xy 72.39 69.85)
 		)
 		(stroke
 			(width 0)
@@ -732,37 +737,67 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 69.85) (xy 91.44 69.85)
+			(xy 46.99 58.42) (xy 63.5 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4f4018df-630e-4736-bd31-5432f9f29aa2")
+		(uuid "61e2d804-f1ee-4e5b-88df-943fd43777df")
 	)
 	(wire
 		(pts
-			(xy 78.74 62.23) (xy 91.44 62.23)
+			(xy 59.69 55.88) (xy 59.69 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ffedb7a-f6b1-4f8a-86f3-80d02ec7ff35")
+		(uuid "7c6f5335-77f3-4f6c-97f0-541560718da4")
 	)
 	(wire
 		(pts
-			(xy 66.04 52.07) (xy 80.01 52.07)
+			(xy 88.9 69.85) (xy 88.9 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4383ab5-8093-4150-8df8-07e88b9134f8")
+		(uuid "89a0b1a9-bf5c-4a79-afc9-7ae6f4482119")
 	)
 	(wire
 		(pts
-			(xy 91.44 62.23) (xy 101.6 62.23)
+			(xy 81.28 60.96) (xy 88.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9979c9ef-3b5b-493a-bcc6-47ad492dd488")
+	)
+	(wire
+		(pts
+			(xy 59.69 60.96) (xy 59.69 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b6f1c8e-f634-4345-ba2b-f5750de63f1a")
+	)
+	(wire
+		(pts
+			(xy 59.69 60.96) (xy 63.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b13cfab7-9dd0-4f64-a2a7-e1f01b70347a")
+	)
+	(wire
+		(pts
+			(xy 88.9 60.96) (xy 99.06 60.96)
 		)
 		(stroke
 			(width 0)
@@ -772,17 +807,27 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 74.93) (xy 60.96 72.39)
+			(xy 81.28 55.88) (xy 87.63 55.88)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d827dd25-2bd8-498b-aae3-5f59e5c23d48")
+		(uuid "dcca8058-4c2d-4672-aa77-d89dbfc42a62")
+	)
+	(wire
+		(pts
+			(xy 87.63 50.8) (xy 87.63 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfa2f287-9f62-4b7f-b9ae-61ddc2d6d8eb")
 	)
 	(hierarchical_label "DIN"
 		(shape input)
-		(at 50.8 62.23 180)
+		(at 46.99 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -793,7 +838,7 @@
 	)
 	(hierarchical_label "DOUT"
 		(shape output)
-		(at 121.92 62.23 0)
+		(at 119.38 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -803,8 +848,94 @@
 		(uuid "8a5b90fe-5dcb-4a30-ba91-ff22d8e9c1d1")
 	)
 	(symbol
+		(lib_id "lcsc:74HCT1G125GW-Q100H")
+		(at 71.12 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "112edb92-b954-45f5-aff8-4ae3c9f26c9f")
+		(property "Reference" "U2"
+			(at 72.39 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "74HCT1G125GW-Q100H"
+			(at 72.39 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc:TSSOP-5_L2.1-W1.3-P0.65-LS2.2-BL"
+			(at 71.12 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/presales_Nexperia-74HCT1G125GW-Q100H_C547449.html"
+			(at 71.12 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 71.12 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C547449"
+			(at 71.12 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f1cf8a73-2e88-4f75-99dc-685ab64bb0f3")
+		)
+		(pin "1"
+			(uuid "ddbadd38-1189-467f-920d-48588926ab6d")
+		)
+		(pin "3"
+			(uuid "86ab06ed-89f9-4466-b212-086dcc190c5d")
+		)
+		(pin "5"
+			(uuid "5b87af44-c5f1-4d73-9630-11c7f2071ecc")
+		)
+		(pin "4"
+			(uuid "42f5ab1b-5332-4261-bc2a-21342b532552")
+		)
+		(instances
+			(project ""
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/8c7c3850-283d-4644-add2-f99410dad09b"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 85.09 74.93 0)
+		(at 72.39 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -813,7 +944,7 @@
 		(fields_autoplaced yes)
 		(uuid "137079a5-fab0-4485-98ce-c511f61e3a1e")
 		(property "Reference" "#PWR012"
-			(at 85.09 81.28 0)
+			(at 72.39 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -822,7 +953,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 85.09 80.01 0)
+			(at 72.39 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -830,7 +961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 85.09 74.93 0)
+			(at 72.39 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -839,7 +970,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 85.09 74.93 0)
+			(at 72.39 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -848,7 +979,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 85.09 74.93 0)
+			(at 72.39 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -869,74 +1000,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 60.96 74.93 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4481da2c-915c-4079-b135-bfdfcbc5d463")
-		(property "Reference" "#PWR0270"
-			(at 60.96 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 60.96 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 60.96 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 60.96 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 60.96 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9d8d85aa-7631-447d-9c5a-c056f409ba82")
-		)
-		(instances
-			(project "stopnu-hardware"
-				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/8c7c3850-283d-4644-add2-f99410dad09b"
-					(reference "#PWR0270")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:D_TVS")
-		(at 91.44 66.04 90)
+		(at 88.9 64.77 90)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -945,7 +1010,7 @@
 		(dnp no)
 		(uuid "5c1d5b0f-989e-4d1c-9934-6629a97da358")
 		(property "Reference" "D4"
-			(at 85.09 66.04 0)
+			(at 82.55 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -954,7 +1019,7 @@
 			)
 		)
 		(property "Value" "ESD prot."
-			(at 87.63 66.04 0)
+			(at 85.09 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -963,7 +1028,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 91.44 66.04 0)
+			(at 88.9 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +1037,7 @@
 			)
 		)
 		(property "Datasheet" "https://jlcpcb.com/partdetail/Elecsuper-CDSOD323T03SC/C22363742"
-			(at 91.44 66.04 0)
+			(at 88.9 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,7 +1046,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 66.04 0)
+			(at 88.9 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,7 +1055,7 @@
 			)
 		)
 		(property "LCSC" "C22363742"
-			(at 91.44 66.04 0)
+			(at 88.9 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1014,120 +1079,8 @@
 		)
 	)
 	(symbol
-		(lib_id "74xGxx:74LVC1G125")
-		(at 66.04 62.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "60adb1dd-cd78-4d91-87bc-44fb99fb7546")
-		(property "Reference" "U26"
-			(at 67.31 48.006 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "74LVC1G17GW,125"
-			(at 74.422 50.038 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-353_SC-70-5"
-			(at 66.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/Buffer-Driver-Transceiver_Nexperia-74LVC1G17GW-125_C426705.html"
-			(at 66.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 66.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C426705"
-			(at 66.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 66.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 66.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 66.04 62.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36754731-1def-405f-92d7-820c0348d81d")
-		)
-		(pin "4"
-			(uuid "246e4580-1b23-41c6-bc85-497c6b2c2de9")
-		)
-		(pin "2"
-			(uuid "a257a220-b787-4922-a438-8ad9886d9da2")
-		)
-		(pin "5"
-			(uuid "ea7fc614-fafb-495f-8cbe-a15f7c8b61bc")
-		)
-		(pin "3"
-			(uuid "d27627ea-2107-4ec6-8ed5-60dd747720c1")
-		)
-		(instances
-			(project "stopnu-hardware"
-				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/8c7c3850-283d-4644-add2-f99410dad09b"
-					(reference "U26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
-		(at 60.96 49.53 0)
+		(at 87.63 50.8 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1136,7 +1089,7 @@
 		(fields_autoplaced yes)
 		(uuid "d480c86b-4e69-421e-a7a4-087ec70fa77c")
 		(property "Reference" "#PWR013"
-			(at 60.96 53.34 0)
+			(at 87.63 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1145,7 +1098,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 60.96 44.45 0)
+			(at 87.63 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1153,7 +1106,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 60.96 49.53 0)
+			(at 87.63 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1162,7 +1115,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 49.53 0)
+			(at 87.63 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1171,7 +1124,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 60.96 49.53 0)
+			(at 87.63 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1193,7 +1146,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 101.6 62.23 0)
+		(at 99.06 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1202,7 +1155,7 @@
 		(fields_autoplaced yes)
 		(uuid "fc805223-251d-4a4f-b94e-30d1c02ec25a")
 		(property "Reference" "TP5"
-			(at 104.14 57.6579 0)
+			(at 101.6 56.3879 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1211,7 +1164,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 104.14 60.1979 0)
+			(at 101.6 58.9279 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1220,7 +1173,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_D1.0mm"
-			(at 106.68 62.23 0)
+			(at 104.14 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1229,7 +1182,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 62.23 0)
+			(at 104.14 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1238,7 +1191,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 101.6 62.23 0)
+			(at 99.06 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
