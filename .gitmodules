@@ -1,0 +1,3 @@
+[submodule "docs/BH20XX-StopNu"]
+	path = docs/BH20XX-StopNu
+	url = git@github.com:badgeteam/BH20XX-StopNu.git
