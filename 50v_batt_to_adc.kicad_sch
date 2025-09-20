@@ -1083,6 +1083,18 @@
 		(uuid "c917f2a3-342b-43e6-ad93-4543cd81905f")
 	)
 	(junction
+		(at 172.72 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2864056-f48e-4369-b130-2d8541e4f69e")
+	)
+	(junction
+		(at 184.15 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0059e4c-ff63-428c-a3d0-b2ddd1f51729")
+	)
+	(junction
 		(at 99.06 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1100,6 +1112,16 @@
 	)
 	(wire
 		(pts
+			(xy 184.15 90.17) (xy 184.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e81e7b6-1fd9-45e4-a0de-ea25f7a5ce4c")
+	)
+	(wire
+		(pts
 			(xy 144.78 80.01) (xy 144.78 82.55)
 		)
 		(stroke
@@ -1107,6 +1129,16 @@
 			(type default)
 		)
 		(uuid "24d32a64-e2d6-4d36-960a-b86746c3c538")
+	)
+	(wire
+		(pts
+			(xy 184.15 80.01) (xy 189.23 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e9dda9d-2f94-4777-b30d-fb6e6c6494bd")
 	)
 	(wire
 		(pts
@@ -1120,13 +1152,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 80.01) (xy 189.23 80.01)
+			(xy 172.72 80.01) (xy 184.15 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3a31fd5b-63b1-4e45-9889-94271dfb1120")
+	)
+	(wire
+		(pts
+			(xy 172.72 92.71) (xy 184.15 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "434d810d-7b59-4c01-a3e4-0b12c5696724")
 	)
 	(wire
 		(pts
@@ -1227,6 +1269,16 @@
 			(type default)
 		)
 		(uuid "aa19f039-8f8b-4749-91a1-98998b30d83c")
+	)
+	(wire
+		(pts
+			(xy 184.15 80.01) (xy 184.15 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be96e0d6-f19d-401f-b489-cd74dc81d730")
 	)
 	(wire
 		(pts
@@ -1565,6 +1617,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 184.15 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4a3cdd9f-53cc-41c3-8932-505cc799ba33")
+		(property "Reference" "C10"
+			(at 187.96 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 187.96 87.6299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 185.1152 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://jlcpcb.com/partdetail/YAGEO-CC0603KRX7R9BB104/C14663"
+			(at 184.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 184.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14663"
+			(at 184.15 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "807cf281-e103-4f43-8a9a-293aa4fe02fa")
+		)
+		(pin "2"
+			(uuid "306f3ab8-ebf0-4c1c-a1b5-f905d0f1e2b0")
+		)
+		(instances
+			(project "stopnu-hardware"
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/b19922b5-b274-4778-931e-95ff57c7d649"
+					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 172.72 80.01 0)
 		(unit 1)
@@ -1728,7 +1859,7 @@
 				)
 			)
 		)
-		(property "Value" "FerriteBead_Small"
+		(property "Value" "BLM18PG121SN1D"
 			(at 87.6681 76.2 90)
 			(effects
 				(font
@@ -1745,7 +1876,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://jlcpcb.com/partdetail/MurataElectronics-BLM18PG121SN1D/C14709"
 			(at 87.63 80.01 0)
 			(effects
 				(font
@@ -1756,6 +1887,15 @@
 		)
 		(property "Description" "Ferrite bead, small symbol"
 			(at 87.63 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14709"
+			(at 87.63 80.01 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1892,7 +2032,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2904852.html?s_z=n_C2904852"
 			(at 144.78 87.63 0)
 			(effects
 				(font
@@ -1901,7 +2041,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Shikues 1N4148WSG"
 			(at 144.78 87.63 0)
 			(effects
 				(font
@@ -1971,7 +2111,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C2904852.html?s_z=n_C2904852"
 			(at 144.78 74.93 0)
 			(effects
 				(font
@@ -1980,7 +2120,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Shikues 1N4148WSG"
 			(at 144.78 74.93 0)
 			(effects
 				(font

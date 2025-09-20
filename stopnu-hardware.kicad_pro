@@ -476,18 +476,18 @@
       },
       {
         "clearance": 0.6,
-        "name": "High Voltage",
+        "name": "50V0.1A",
         "pcb_color": "rgb(255, 0, 0)",
         "priority": 2,
         "schematic_color": "rgb(255, 0, 0)",
-        "track_width": 0.25,
+        "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
       {
         "clearance": 0.2,
         "name": "I2C",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(255, 0, 255)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
@@ -497,7 +497,7 @@
       {
         "clearance": 0.2,
         "name": "Supply",
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "pcb_color": "rgb(194, 0, 0)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
@@ -509,19 +509,26 @@
       "version": 4
     },
     "net_colors": null,
-    "netclass_assignments": null,
+    "netclass_assignments": {
+      "/power 5V in/+5V_EXT": [
+        "Supply"
+      ],
+      "/power 5V in/GND_EXT": [
+        "Supply"
+      ]
+    },
     "netclass_patterns": [
       {
-        "netclass": "High Voltage",
+        "netclass": "Supply",
+        "pattern": "(.?([0-9]V[0-9]|V[0-9](.[0-9])?)|[+-][0-9](.[0-9])?V|VBATT)"
+      },
+      {
+        "netclass": "50V0.1A",
         "pattern": ".*_V50"
       },
       {
         "netclass": "I2C",
         "pattern": ".?QWIIC_.*"
-      },
-      {
-        "netclass": "Supply",
-        "pattern": ".?([0-9]V[0-9]|V[0-9](.[0-9])?)"
       }
     ]
   },
@@ -674,12 +681,12 @@
       "Button 3"
     ],
     [
-      "8c7c3850-283d-4644-add2-f99410dad09b",
-      "LED control output"
-    ],
-    [
       "7b0869a3-a922-42ed-84a7-59d61dea9664",
       "Ambient light sensor"
+    ],
+    [
+      "8c7c3850-283d-4644-add2-f99410dad09b",
+      "LED control output"
     ],
     [
       "2279bf67-9a91-44f0-b5c7-36e7b6560aca",
@@ -688,6 +695,10 @@
     [
       "fcd7be72-9c9e-4717-8056-7ec02dc0e81d",
       "Button 1"
+    ],
+    [
+      "9fd6a918-45bc-4af1-b3e2-71cdbd26c0f6",
+      "power 5V in"
     ]
   ],
   "text_variables": {}
