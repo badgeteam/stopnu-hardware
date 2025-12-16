@@ -478,17 +478,23 @@
         "clearance": 0.6,
         "name": "50V0.1A",
         "pcb_color": "rgb(255, 0, 0)",
-        "priority": 2,
+        "priority": 3,
         "schematic_color": "rgb(255, 0, 0)",
         "track_width": 0.3,
         "via_diameter": 0.6,
         "via_drill": 0.3
       },
       {
+        "name": "GPIO",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgb(255, 0, 255)"
+      },
+      {
         "clearance": 0.2,
         "name": "I2C",
         "pcb_color": "rgb(255, 0, 255)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "via_diameter": 0.6,
@@ -498,7 +504,7 @@
         "clearance": 0.2,
         "name": "Supply",
         "pcb_color": "rgb(194, 0, 0)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.5,
         "via_diameter": 0.8,
@@ -529,6 +535,10 @@
       {
         "netclass": "I2C",
         "pattern": ".?QWIIC_.*"
+      },
+      {
+        "netclass": "GPIO",
+        "pattern": "/(GPIO[0-9][0-9]|UART_(RX|TX)|USER_KEY|MCU_RST)"
       }
     ]
   },
@@ -610,12 +620,150 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Category",
+          "name": "Category",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part",
+          "name": "LCSC Part",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Neg",
+          "name": "Neg",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Pos",
+          "name": "Pos",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "gnd",
+          "name": "gnd",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "input1",
+          "name": "input1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "input2",
+          "name": "input2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "input3",
+          "name": "input3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -669,12 +817,8 @@
       "Button 2"
     ],
     [
-      "b19922b5-b274-4778-931e-95ff57c7d649",
-      "battery_50v_to_adc"
-    ],
-    [
       "8dddb553-bb71-4d14-8f8b-c1b446e0dbb3",
-      "MCU"
+      "HELTEC V3"
     ],
     [
       "966e223a-98da-4719-87d2-fe9fc7de1219",

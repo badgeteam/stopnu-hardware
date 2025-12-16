@@ -2,4 +2,5 @@
   (version 7)
   (lib (name "WIFI_KIT_32__V3_")(type "KiCad")(uri "${KIPRJMOD}/symbols/WIFI_KIT_32__V3_.kicad_sym")(options "")(descr ""))
   (lib (name "lcsc")(type "KiCad")(uri "${KIPRJMOD}/symbols/lcsc.kicad_sym")(options "")(descr ""))
+  (lib (name "WIFI_KIT_32__V3_1")(type "KiCad")(uri "${KIPRJMOD}/WIFI_KIT_32__V3_.kicad_sym")(options "")(descr ""))
 )
