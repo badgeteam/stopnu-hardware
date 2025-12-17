@@ -910,22 +910,26 @@
 			)
 		)
 		(pin "2"
-			(uuid "f1cf8a73-2e88-4f75-99dc-685ab64bb0f3")
+			(uuid "5b510676-a61d-43a4-b86f-7ba23e029a47")
 		)
 		(pin "1"
-			(uuid "ddbadd38-1189-467f-920d-48588926ab6d")
+			(uuid "b7099718-0e15-440c-acbe-c7fafc9ad2b0")
 		)
 		(pin "3"
-			(uuid "86ab06ed-89f9-4466-b212-086dcc190c5d")
+			(uuid "fb9aa347-f131-48a6-8c9a-1b8ee2b89b43")
 		)
 		(pin "5"
-			(uuid "5b87af44-c5f1-4d73-9630-11c7f2071ecc")
+			(uuid "a7abfbe8-2de8-43cf-9877-3e42beff85f4")
 		)
 		(pin "4"
-			(uuid "42f5ab1b-5332-4261-bc2a-21342b532552")
+			(uuid "9a8d3e9e-b57e-4c60-8788-22f9f8b9e714")
 		)
 		(instances
-			(project ""
+			(project "stopnu-hardware"
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/2802f371-7595-4a10-8670-9762212ad668"
+					(reference "U4")
+					(unit 1)
+				)
 				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/8c7c3850-283d-4644-add2-f99410dad09b"
 					(reference "U2")
 					(unit 1)
@@ -988,10 +992,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "55f55688-9c96-48c6-9c61-a7b0f07f6905")
+			(uuid "7eae7426-a775-4db6-a6cd-3929a19723a0")
 		)
 		(instances
-			(project ""
+			(project "stopnu-hardware"
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/2802f371-7595-4a10-8670-9762212ad668"
+					(reference "#PWR049")
+					(unit 1)
+				)
 				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/8c7c3850-283d-4644-add2-f99410dad09b"
 					(reference "#PWR012")
 					(unit 1)
@@ -1064,13 +1072,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "ab76e5c1-cd12-4847-84d7-ebe6e5e18280")
+			(uuid "b83d176b-594a-435c-af2f-83efafff4145")
 		)
 		(pin "1"
-			(uuid "b3d3c6b3-d70b-4e0c-b746-d80bfc50e11e")
+			(uuid "3fa12de9-e81a-41f0-9aa3-3239e8bc8f82")
 		)
 		(instances
 			(project "stopnu-hardware"
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/2802f371-7595-4a10-8670-9762212ad668"
+					(reference "D2")
+					(unit 1)
+				)
 				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/8c7c3850-283d-4644-add2-f99410dad09b"
 					(reference "D4")
 					(unit 1)
@@ -1133,10 +1145,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "b8dd5747-088c-4dd1-a28c-2de3630c7ecf")
+			(uuid "824b9d5f-cd56-4bc3-8177-64e6c168b216")
 		)
 		(instances
-			(project ""
+			(project "stopnu-hardware"
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/2802f371-7595-4a10-8670-9762212ad668"
+					(reference "#PWR050")
+					(unit 1)
+				)
 				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/8c7c3850-283d-4644-add2-f99410dad09b"
 					(reference "#PWR013")
 					(unit 1)
@@ -1200,10 +1216,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f29a71d2-e146-45d6-8bc6-8982ec2c105f")
+			(uuid "1a61f634-e469-4f95-a382-126862021951")
 		)
 		(instances
 			(project "stopnu-hardware"
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/2802f371-7595-4a10-8670-9762212ad668"
+					(reference "TP3")
+					(unit 1)
+				)
 				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/8c7c3850-283d-4644-add2-f99410dad09b"
 					(reference "TP5")
 					(unit 1)
