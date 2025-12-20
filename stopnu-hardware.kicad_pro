@@ -146,6 +146,14 @@
         [
           "silk_edge_clearance|8432500|78102500|b8a7d265-7195-438a-b313-4eed6c05411c|c8b7b369-f23d-4195-880d-f2e50bd7922e",
           ""
+        ],
+        [
+          "silk_overlap|-23090257|-21012371|819c1c7b-08a0-468f-926c-e30d251848c4|dd16d429-3ba1-4739-9ba0-a79b88a665aa",
+          ""
+        ],
+        [
+          "silk_overlap|25778429|-24623567|4bc713a0-fa90-4d47-a88f-5f914a3254f0|7ef46377-b009-4eb8-abd8-18c8e90e3051",
+          ""
         ]
       ],
       "meta": {
@@ -279,7 +287,8 @@
         0.0,
         0.2,
         0.25,
-        0.5
+        0.5,
+        0.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {

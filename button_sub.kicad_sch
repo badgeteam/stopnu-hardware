@@ -1026,7 +1026,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Pull to ground to activate.\nCable can be tested, when 5V is preset, OK."
+	(text "Pull to ground to activate.\nCable can be tested, when 5V is present, OK."
 		(exclude_from_sim no)
 		(at 147.066 72.898 0)
 		(effects

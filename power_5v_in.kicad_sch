@@ -1602,6 +1602,12 @@
 		(uuid "57daef23-2f98-4b3c-aa66-5bef9a8f2a63")
 	)
 	(junction
+		(at 80.01 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "230fd6de-8559-4d3e-9802-c82bb6ea8392")
+	)
+	(junction
 		(at 114.3 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1668,10 +1674,22 @@
 		(uuid "b18ca937-2710-4435-a3ce-c8a5bb1d9c67")
 	)
 	(junction
+		(at 59.69 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c0c1764f-03e0-4f8c-b424-7c3f4aabc07c")
+	)
+	(junction
 		(at 140.97 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb6d2e55-d15b-4ba8-824d-aba3d5f317c4")
+	)
+	(junction
+		(at 68.58 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d47588c3-9735-4f06-a75b-110fed00844a")
 	)
 	(wire
 		(pts
@@ -1705,13 +1723,23 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 76.2) (xy 80.01 76.2)
+			(xy 57.15 76.2) (xy 68.58 76.2)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "215db572-95d1-475b-8333-7959657a9a32")
+	)
+	(wire
+		(pts
+			(xy 68.58 83.82) (xy 68.58 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29fcaf8f-b7bd-4a23-98c7-16ceb9f0a501")
 	)
 	(wire
 		(pts
@@ -1855,6 +1883,16 @@
 	)
 	(wire
 		(pts
+			(xy 59.69 85.09) (xy 68.58 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a05e717-ee99-4808-991f-27252305fba2")
+	)
+	(wire
+		(pts
 			(xy 41.91 19.05) (xy 54.61 19.05)
 		)
 		(stroke
@@ -1862,6 +1900,16 @@
 			(type default)
 		)
 		(uuid "67a1a2a5-0c7a-404f-aec1-b731abde689c")
+	)
+	(wire
+		(pts
+			(xy 68.58 76.2) (xy 80.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a7530e0-82a7-4e68-ba72-9e278285ad0a")
 	)
 	(wire
 		(pts
@@ -1935,16 +1983,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 85.09) (xy 80.01 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a1fee98f-346a-414b-9a0c-89fe214918cb")
-	)
-	(wire
-		(pts
 			(xy 80.01 76.2) (xy 80.01 80.01)
 		)
 		(stroke
@@ -1952,6 +1990,16 @@
 			(type default)
 		)
 		(uuid "a5ba2109-e455-40a7-b2b6-9b943067c4b1")
+	)
+	(wire
+		(pts
+			(xy 80.01 80.01) (xy 80.01 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adcca7db-748b-4e2f-a84c-d3c9a6a4d9a5")
 	)
 	(wire
 		(pts
@@ -2369,120 +2417,6 @@
 			(project "stopnu-hardware"
 				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/9fd6a918-45bc-4af1-b3e2-71cdbd26c0f6"
 					(reference "#PWR0209")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "mch2021-rescue:R-Device")
-		(at 80.01 90.17 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a020a1d-c14d-4d66-8460-0db3d53cc980")
-		(property "Reference" "R53"
-			(at 81.788 89.0016 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10k"
-			(at 81.788 91.313 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 78.232 90.17 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2304140030_YAGEO-RC0402FR-0710KL_C60490.pdf"
-			(at 80.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC" "C60490"
-			(at 80.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER" ""
-			(at 80.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" ""
-			(at 80.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" ""
-			(at 80.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Category" ""
-			(at 80.01 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e88b543d-d5e9-4a6a-969d-d7b74b972791")
-		)
-		(pin "2"
-			(uuid "6fd78a3c-e3d6-45aa-b528-d63a22359107")
-		)
-		(instances
-			(project "stopnu-hardware"
-				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/9fd6a918-45bc-4af1-b3e2-71cdbd26c0f6"
-					(reference "R53")
 					(unit 1)
 				)
 			)
@@ -3579,71 +3513,6 @@
 		)
 	)
 	(symbol
-		(lib_id "mch2021-rescue:GND-power")
-		(at 80.01 93.98 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8c17af3c-9332-4338-85e8-6d30782e6724")
-		(property "Reference" "#PWR0205"
-			(at 80.01 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 80.137 98.3742 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 80.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 80.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 80.01 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "36ca0d55-50de-4964-8ea4-0d20f68437a0")
-		)
-		(instances
-			(project "stopnu-hardware"
-				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/9fd6a918-45bc-4af1-b3e2-71cdbd26c0f6"
-					(reference "#PWR0205")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:FerriteBead_Small")
 		(at 54.61 76.2 270)
 		(unit 1)
@@ -4155,6 +4024,111 @@
 			(project "stopnu-hardware"
 				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/9fd6a918-45bc-4af1-b3e2-71cdbd26c0f6"
 					(reference "R54")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 68.58 80.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4c14a8f-931a-4459-955e-352b026a0150")
+		(property "Reference" "C3"
+			(at 69.85 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 69.85 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 69.5452 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL21B106KAYQNNE_C3039694.html"
+			(at 68.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 68.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C3039694"
+			(at 68.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" ""
+			(at 68.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" ""
+			(at 68.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Category" ""
+			(at 68.58 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6719ee2-6980-4c53-9e95-5a2ed8909ec7")
+		)
+		(pin "2"
+			(uuid "95726d3c-c146-45b4-8b89-be4c80fcddee")
+		)
+		(instances
+			(project "stopnu-hardware"
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9/9fd6a918-45bc-4af1-b3e2-71cdbd26c0f6"
+					(reference "C3")
 					(unit 1)
 				)
 			)
