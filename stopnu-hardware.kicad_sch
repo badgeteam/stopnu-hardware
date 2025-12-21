@@ -2032,160 +2032,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "lcsc:OQ0432510000G"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "CN"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "OQ0432510000G"
-				(at 0 -8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "lcsc:CONN-TH_4P-P3.81_OQ0432510000G"
-				(at 0 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "LCSC Part" "C599413"
-				(at 0 -13.97 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "OQ0432510000G_0_1"
-				(rectangle
-					(start -2.54 6.35)
-					(end 2.54 -6.35)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(circle
-					(center -1.27 5.08)
-					(radius 0.38)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 3.81 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 1.27 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -1.27 0)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at -5.08 -3.81 0)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "lcsc:SM04B-SRSS-TB(LF)(SN)"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2810,10 +2656,22 @@
 		(uuid "98afc32f-eba3-427d-9f00-94262217bb2d")
 	)
 	(junction
+		(at 26.67 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a3efe0ed-c580-4937-ab22-a9889d669868")
+	)
+	(junction
 		(at 142.24 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5959084-8ffb-4806-a8a3-4464de32d577")
+	)
+	(junction
+		(at 26.67 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd164726-78e1-4f4b-af36-09e765e28611")
 	)
 	(junction
 		(at 35.56 180.34)
@@ -3393,6 +3251,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 111.76) (xy 30.48 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bd9b3d9-e2e4-4f99-8867-36dd8c971040")
+	)
+	(wire
+		(pts
 			(xy 187.96 124.46) (xy 187.96 132.08)
 		)
 		(stroke
@@ -3400,6 +3268,16 @@
 			(type default)
 		)
 		(uuid "12422183-0bb7-40ef-a4ce-601cd16b0cc4")
+	)
+	(wire
+		(pts
+			(xy 26.67 114.3) (xy 26.67 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "140c107d-f820-4f31-b3eb-2b3bc7053e56")
 	)
 	(wire
 		(pts
@@ -3430,6 +3308,16 @@
 			(type default)
 		)
 		(uuid "14fdb781-4dd9-4df8-a73f-fcda794ca477")
+	)
+	(wire
+		(pts
+			(xy 25.4 114.3) (xy 26.67 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "152a741f-3882-4c76-bfe9-104effd89a4d")
 	)
 	(wire
 		(pts
@@ -3733,6 +3621,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 102.87) (xy 33.02 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "400836d8-959b-4cd8-8c19-755f341334b9")
+	)
+	(wire
+		(pts
 			(xy 205.74 59.69) (xy 196.85 59.69)
 		)
 		(stroke
@@ -3880,6 +3778,16 @@
 			(type default)
 		)
 		(uuid "541c87d8-5d1d-4b25-a03c-5b6f99adc74b")
+	)
+	(wire
+		(pts
+			(xy 25.4 111.76) (xy 30.48 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56d568b0-913b-4d9a-bbd4-47389072349d")
 	)
 	(bus
 		(pts
@@ -4093,6 +4001,16 @@
 	)
 	(wire
 		(pts
+			(xy 25.4 120.65) (xy 30.48 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7807084a-dc07-48c0-9abf-a69fbeead11b")
+	)
+	(wire
+		(pts
 			(xy 105.41 91.44) (xy 139.7 91.44)
 		)
 		(stroke
@@ -4141,6 +4059,16 @@
 		)
 		(uuid "7b99822b-23cc-436d-b429-ed0f3b0bf3d2")
 	)
+	(wire
+		(pts
+			(xy 33.02 102.87) (xy 33.02 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7bcff1c9-ae99-4778-bc6c-700cc1394bda")
+	)
 	(bus
 		(pts
 			(xy 120.65 110.49) (xy 120.65 113.03)
@@ -4180,6 +4108,16 @@
 			(type default)
 		)
 		(uuid "7f8246b9-d996-4262-9c91-9ba2d319cc7f")
+	)
+	(wire
+		(pts
+			(xy 25.4 105.41) (xy 26.67 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80d356fb-8a84-48e6-a528-3f7f6d14e400")
 	)
 	(wire
 		(pts
@@ -4281,6 +4219,16 @@
 		)
 		(uuid "875caa83-d9b9-40e2-b887-4068d66ad8b0")
 	)
+	(wire
+		(pts
+			(xy 30.48 113.03) (xy 77.47 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87c18109-a535-4f4a-8dde-2046a8cb2529")
+	)
 	(bus
 		(pts
 			(xy 71.12 63.5) (xy 142.24 63.5)
@@ -4293,13 +4241,13 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 118.11) (xy 36.83 120.65)
+			(xy 25.4 123.19) (xy 26.67 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8972d18a-ff93-4919-af0f-1eaa36c867e7")
+		(uuid "89cae770-b066-43c8-b8b7-be644bd74955")
 	)
 	(bus
 		(pts
@@ -4330,16 +4278,6 @@
 			(type default)
 		)
 		(uuid "8fb54fd2-e3fe-42e1-9c27-19a79bab5e4c")
-	)
-	(wire
-		(pts
-			(xy 33.02 115.57) (xy 77.47 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94839408-bfd1-4b97-b49d-09991a2d50f8")
 	)
 	(wire
 		(pts
@@ -4410,16 +4348,6 @@
 			(type default)
 		)
 		(uuid "984ccccf-6913-482a-ae60-d4228efac2b6")
-	)
-	(wire
-		(pts
-			(xy 33.02 118.11) (xy 36.83 118.11)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a82e4d4-e212-4cf9-874d-ffbc670f6421")
 	)
 	(wire
 		(pts
@@ -4520,16 +4448,6 @@
 			(type default)
 		)
 		(uuid "a03e7306-655b-42bf-b53b-c7b4bde6a05c")
-	)
-	(wire
-		(pts
-			(xy 33.02 113.03) (xy 77.47 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a4428644-6248-4a93-889a-00bcc3630b92")
 	)
 	(wire
 		(pts
@@ -4770,6 +4688,16 @@
 			(type default)
 		)
 		(uuid "c630f58a-63d2-41bd-8f6f-847933114ee4")
+	)
+	(wire
+		(pts
+			(xy 26.67 105.41) (xy 26.67 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c669e113-8248-40e4-8c6c-7b1577a02b78")
 	)
 	(bus
 		(pts
@@ -5013,6 +4941,16 @@
 	)
 	(wire
 		(pts
+			(xy 26.67 123.19) (xy 26.67 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df47e406-610a-473f-9ca2-0ac03efaac49")
+	)
+	(wire
+		(pts
 			(xy 33.02 39.37) (xy 77.47 39.37)
 		)
 		(stroke
@@ -5103,6 +5041,16 @@
 	)
 	(wire
 		(pts
+			(xy 30.48 115.57) (xy 30.48 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "edef3616-3340-4da7-bccc-a6d4f8dcd5a2")
+	)
+	(wire
+		(pts
 			(xy 190.5 124.46) (xy 190.5 132.08)
 		)
 		(stroke
@@ -5170,6 +5118,16 @@
 			(type default)
 		)
 		(uuid "f24a0d28-c2ff-46c8-bfe0-e6449716a90a")
+	)
+	(wire
+		(pts
+			(xy 30.48 115.57) (xy 77.47 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2bfd473-f067-485c-b24d-af3034af3a14")
 	)
 	(bus
 		(pts
@@ -7183,16 +7141,15 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 120.65 0)
+		(at 26.67 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "66b5cd01-b2cb-4058-a4cb-80fa2325dcc9")
 		(property "Reference" "#PWR034"
-			(at 36.83 127 0)
+			(at 26.67 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7201,7 +7158,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 125.73 0)
+			(at 30.226 129.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7209,7 +7166,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 120.65 0)
+			(at 26.67 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7218,7 +7175,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 120.65 0)
+			(at 26.67 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7227,7 +7184,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 120.65 0)
+			(at 26.67 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7311,7 +7268,7 @@
 			)
 		)
 		(property "Pos" "+5V"
-			(at 34.798 38.354 0)
+			(at 34.798 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7319,7 +7276,7 @@
 			)
 		)
 		(property "Neg" "GND"
-			(at 34.798 43.434 0)
+			(at 34.798 38.354 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7795,6 +7752,108 @@
 		)
 	)
 	(symbol
+		(lib_id "lcsc:OQ0232510000G")
+		(at 20.32 104.14 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9d85ecec-bdfe-4edf-b8de-6b417e087320")
+		(property "Reference" "CN6"
+			(at 37.338 104.394 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OQ0232510000G"
+			(at 37.338 106.934 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc:CONN-TH_OQ0232510000G"
+			(at 20.32 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C967073.html?s_z=n_OQ02325"
+			(at 20.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED CTRL output 5V"
+			(at 20.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C967073"
+			(at 20.32 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label2" "LED2"
+			(at 14.224 101.346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "GND" "GND"
+			(at 20.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S" "S"
+			(at 20.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "59efb835-36f2-412b-a5fb-b7ecb357658f")
+		)
+		(pin "1"
+			(uuid "8f672dc3-1703-4d55-98e0-7e8e333d8261")
+		)
+		(instances
+			(project "stopnu-hardware"
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9"
+					(reference "CN6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:Housing")
 		(at 121.92 180.34 0)
 		(unit 1)
@@ -8054,125 +8113,6 @@
 		)
 	)
 	(symbol
-		(lib_id "lcsc:OQ0432510000G")
-		(at 27.94 114.3 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c209e156-70a8-475c-b015-d48470fbbef7")
-		(property "Reference" "CN6"
-			(at 27.94 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "OQ0432510000G"
-			(at 27.94 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "lcsc:CONN-TH_4P-P3.81_OQ0432510000G"
-			(at 27.94 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.lcsc.com/product-detail/C599413.html?s_z=n_Amphenol%2520OQ0432510000G"
-			(at 27.94 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dig ext input"
-			(at 27.94 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C599413"
-			(at 27.94 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "input1" "in1"
-			(at 27.94 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "input2" "in2"
-			(at 27.94 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "input3" "in3"
-			(at 27.94 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "gnd" "gnd"
-			(at 27.94 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e8311585-67db-4f37-b7a2-84c93a053fd5")
-		)
-		(pin "1"
-			(uuid "692addc2-e760-420e-9aa3-c90f3c03d0dd")
-		)
-		(pin "4"
-			(uuid "46f4459f-1425-4d4a-861b-b9f6d70256a4")
-		)
-		(pin "3"
-			(uuid "fcbb3064-117c-423d-9d29-c562695e8129")
-		)
-		(instances
-			(project ""
-				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9"
-					(reference "CN6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "lcsc:D5V0P4URL6SO-7")
 		(at 85.09 151.13 0)
 		(unit 1)
@@ -8256,6 +8196,108 @@
 			(project ""
 				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:OQ0232510000G")
+		(at 20.32 121.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c7f5a36d-6954-47d4-8aa5-a3e49ac1df6f")
+		(property "Reference" "CN8"
+			(at 38.1 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OQ0232510000G"
+			(at 38.1 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc:CONN-TH_OQ0232510000G"
+			(at 20.32 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C967073.html?s_z=n_OQ02325"
+			(at 20.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED CTRL output 5V"
+			(at 20.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C967073"
+			(at 20.32 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label2" "LED2"
+			(at 14.224 119.126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "GND" "GND"
+			(at 20.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S" "S"
+			(at 20.32 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "b70a9197-a715-4bb3-b308-ccf6434fcb49")
+		)
+		(pin "1"
+			(uuid "83cd298e-ed80-4590-a768-c01fc4608516")
+		)
+		(instances
+			(project "stopnu-hardware"
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9"
+					(reference "CN8")
 					(unit 1)
 				)
 			)
@@ -8454,6 +8496,108 @@
 			(project ""
 				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9"
 					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "lcsc:OQ0232510000G")
+		(at 20.32 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dc86446a-bb69-44c0-b68f-186a25a599e6")
+		(property "Reference" "CN7"
+			(at 37.846 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "OQ0232510000G"
+			(at 37.846 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "lcsc:CONN-TH_OQ0232510000G"
+			(at 20.32 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.lcsc.com/product-detail/C967073.html?s_z=n_OQ02325"
+			(at 20.32 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "LED CTRL output 5V"
+			(at 20.32 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C967073"
+			(at 20.32 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Label2" "LED2"
+			(at 14.224 110.236 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "GND" "GND"
+			(at 20.32 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "S" "S"
+			(at 20.32 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a35913cf-e500-4627-b9b1-f62fb7c707c7")
+		)
+		(pin "1"
+			(uuid "1de5df24-54a8-472e-bd07-1f3bb567efda")
+		)
+		(instances
+			(project "stopnu-hardware"
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9"
+					(reference "CN7")
 					(unit 1)
 				)
 			)
@@ -9373,7 +9517,7 @@
 			)
 		)
 		(pin "+5V_EXT" input
-			(at 77.47 39.37 180)
+			(at 77.47 41.91 180)
 			(uuid "9b9fc267-ab2a-469d-9c55-cc0cf393ed29")
 			(effects
 				(font
@@ -9383,7 +9527,7 @@
 			)
 		)
 		(pin "GND_EXT" input
-			(at 77.47 41.91 180)
+			(at 77.47 39.37 180)
 			(uuid "1800435f-2696-4409-b125-3355df84da87")
 			(effects
 				(font
