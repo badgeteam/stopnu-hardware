@@ -2727,6 +2727,16 @@
 		)
 		(uuid "80574a9e-31c5-47f3-aa56-880297e4a02e")
 	)
+	(text "Expansion connector"
+		(exclude_from_sim no)
+		(at 182.88 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8aba22db-35a1-41b3-96c1-c104c10eebb1")
+	)
 	(junction
 		(at 55.88 149.86)
 		(diameter 0)
@@ -3463,6 +3473,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 38.1) (xy 114.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c37d0c-4b45-49cc-8c1b-13a753536469")
+	)
+	(wire
+		(pts
 			(xy 30.48 144.78) (xy 40.64 144.78)
 		)
 		(stroke
@@ -3780,6 +3800,16 @@
 			(type default)
 		)
 		(uuid "4a642946-8fe5-4dcc-94e5-97d5b08f74fb")
+	)
+	(wire
+		(pts
+			(xy 104.14 38.1) (xy 107.95 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bb89f48-f277-4e93-9deb-652623b6bf2e")
 	)
 	(wire
 		(pts
@@ -4721,6 +4751,16 @@
 		)
 		(uuid "c4bd7e3b-5ba7-4b14-a7af-052a7bc7ddbb")
 	)
+	(wire
+		(pts
+			(xy 123.19 43.18) (xy 123.19 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6135bf7-81a8-40a1-90aa-7986ab0664fd")
+	)
 	(bus
 		(pts
 			(xy 116.84 147.32) (xy 116.84 138.43)
@@ -5003,6 +5043,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 40.64) (xy 114.3 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5473aa0-695b-4f68-99c6-c3d7d8e49687")
+	)
+	(wire
+		(pts
 			(xy 33.02 57.15) (xy 68.58 57.15)
 		)
 		(stroke
@@ -5050,16 +5100,6 @@
 			(type default)
 		)
 		(uuid "ec933545-1944-445e-808e-9aaa30d281a0")
-	)
-	(wire
-		(pts
-			(xy 103.505 40.64) (xy 107.95 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed7453e0-91ca-467b-8120-11756cf13ff1")
 	)
 	(wire
 		(pts
@@ -5140,6 +5180,16 @@
 			(type default)
 		)
 		(uuid "f624015a-aaca-4de9-926b-d5df76a76a37")
+	)
+	(wire
+		(pts
+			(xy 104.14 43.18) (xy 123.19 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f655c778-b012-453e-a048-7e60f18b0dce")
 	)
 	(bus
 		(pts
@@ -6000,7 +6050,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 107.95 40.64 0)
+		(at 123.19 38.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6009,7 +6059,7 @@
 		(fields_autoplaced yes)
 		(uuid "006bc87c-fa91-4d79-8e23-f2145e826e93")
 		(property "Reference" "#PWR011"
-			(at 107.95 44.45 0)
+			(at 123.19 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6018,7 +6068,7 @@
 			)
 		)
 		(property "Value" "+3V3_MCU"
-			(at 107.95 35.56 0)
+			(at 123.19 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6026,7 +6076,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 40.64 0)
+			(at 123.19 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6035,7 +6085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 40.64 0)
+			(at 123.19 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6044,7 +6094,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 107.95 40.64 0)
+			(at 123.19 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6396,6 +6446,72 @@
 			(project ""
 				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9"
 					(reference "#SYM1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 114.3 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "276690a1-f699-46d1-81dd-0a80bd39c4a2")
+		(property "Reference" "#PWR041"
+			(at 114.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 114.3 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 114.3 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17c6ebe5-0339-4464-9c7e-e88777a8f81e")
+		)
+		(instances
+			(project ""
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9"
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -8278,6 +8394,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 107.95 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7df8f28-63ca-4a73-b347-242e90b3ad77")
+		(property "Reference" "#PWR036"
+			(at 107.95 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 107.95 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 107.95 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac48863e-1331-4bbe-9c72-fdd206fb74b8")
+		)
+		(instances
+			(project ""
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9"
+					(reference "#PWR036")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "lcsc:SM04B-SRSS-TB(LF)(SN)")
 		(at 26.67 148.59 270)
 		(unit 1)
@@ -9157,8 +9339,8 @@
 		)
 	)
 	(sheet
-		(at 77.47 37.465)
-		(size 26.035 6.985)
+		(at 77.47 36.83)
+		(size 26.67 7.62)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -9173,7 +9355,7 @@
 		)
 		(uuid "9fd6a918-45bc-4af1-b3e2-71cdbd26c0f6")
 		(property "Sheetname" "power 5V in"
-			(at 77.47 36.7534 0)
+			(at 77.47 36.1184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9182,7 +9364,7 @@
 			)
 		)
 		(property "Sheetfile" "power_5v_in.kicad_sch"
-			(at 77.47 45.0346 0)
+			(at 77.47 45.6696 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9211,8 +9393,28 @@
 			)
 		)
 		(pin "+3V3_MCU" input
-			(at 103.505 40.64 0)
+			(at 104.14 43.18 0)
 			(uuid "76bd830e-b402-4e96-bc16-b811f5c96395")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+3.3V" output
+			(at 104.14 40.64 0)
+			(uuid "c4398a15-5863-4fac-b0ae-403ccd2ac9c4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "+5V" output
+			(at 104.14 38.1 0)
+			(uuid "ba2fa4b1-063a-46d9-aaba-f10147bb8247")
 			(effects
 				(font
 					(size 1.27 1.27)

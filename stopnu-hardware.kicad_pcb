@@ -656,6 +656,7 @@
 		)
 	)
 	(footprint "kibuzzard-69470A66"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "040689b3-10e1-47f5-9c90-772ea468e844")
 		(at -6.05 -2.240914 90)
@@ -1070,6 +1071,7 @@
 		)
 	)
 	(footprint "kibuzzard-6946CE3C"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "139f368c-22f2-4cba-b95e-0300d077ac8a")
 		(at -13.67 18.512329 -90)
@@ -1826,6 +1828,7 @@
 		)
 	)
 	(footprint "kibuzzard-6946CE98"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "1f39a27e-23b5-4abe-8aea-939c04e48a86")
 		(at 4.11 18.50685 -90)
@@ -2859,6 +2862,7 @@
 		)
 	)
 	(footprint "lcsc:TO-220-3_L10.0-W4.5-P2.54-L"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "22f73e4d-426c-4313-a1dc-19e9bb2fdc40")
 		(at -42 70.04 90)
@@ -3513,6 +3517,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "kibuzzard-6946CF08"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "293214f6-20b8-499d-8c6f-a0c44e31ced0")
 		(at 11.73 -2.259179 90)
@@ -3688,6 +3693,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "kibuzzard-6946CDDB"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "2b1b20ce-4eb8-41b4-9a77-67bdbd2adc9c")
 		(at -0.97 17.821918 -90)
@@ -3785,6 +3791,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "lcsc:CONN-TH_OQ0232510000G"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "2b3c84c4-1601-4430-a00b-df814599c4a8")
 		(at 15.0325 70.1025)
@@ -4048,6 +4055,7 @@
 		)
 	)
 	(footprint "kibuzzard-6946CF20"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "329bf000-4a2a-4bbb-bf1d-36246e1a2bd6")
 		(at 6.65 -2.24685 90)
@@ -4192,6 +4200,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "kibuzzard-6946CE89"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3368f880-e144-4dbe-a632-0fac627b12f0")
 		(at 9.19 18.503425 -90)
@@ -4357,6 +4366,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "kibuzzard-6946CE4B"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "337a240c-6262-4385-85c7-cb6ec50ff4f0")
 		(at -16.21 18.45 -90)
@@ -5304,6 +5314,7 @@
 		)
 	)
 	(footprint "Package_DIP:SMDIP-4_W9.53mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "3d4880c6-1db9-43a3-9ccb-2d5f844de930")
 		(at 16 46.7)
@@ -6712,6 +6723,7 @@
 		)
 	)
 	(footprint "lcsc:CONN-SMD_4P-P1.00_SM04B-SRSS-TB-LF-SN"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "4a4f9921-f41e-4d36-beed-a82303e3033f")
 		(at -8.8 74.5)
@@ -7005,6 +7017,7 @@
 		)
 	)
 	(footprint "kibuzzard-69470A71"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "4b00614a-cdf1-4725-8190-5ee65fcc78e0")
 		(at -3.51 -2.285434 90)
@@ -7154,6 +7167,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "kibuzzard-6946CCA1"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "50909f13-43fb-4c1a-95c4-44742ab6ab57")
 		(at 16.8 17.5 -90)
@@ -7253,6 +7267,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "kibuzzard-6946CFA1"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "51243d2e-a954-48d6-b2c1-f7f8f998d9aa")
 		(at -13.67 -2.625845 90)
@@ -7392,6 +7407,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "kibuzzard-6946CCA1"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "529ad516-20f8-4e98-bbae-811642158a99")
 		(at -18.75 17.5 -90)
@@ -7493,6 +7509,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "lcsc:CONN-TH_4P-P3.81_OQ0432510000G"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "529b8482-6d07-46a8-a926-c8747bc36465")
 		(at 31.245 70.135)
@@ -8046,6 +8063,7 @@
 		)
 	)
 	(footprint "kibuzzard-69470A3B"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "52ace824-fa3a-475f-969e-df0836895bd2")
 		(at 14.27 18.502055 -90)
@@ -8443,6 +8461,7 @@
 		)
 	)
 	(footprint "kibuzzard-6946CEFA"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "5ecb669a-68a5-4f7d-b473-0a9e23c1cac5")
 		(at 14.27 -2.253699 90)
@@ -8711,6 +8730,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "kibuzzard-6946CE20"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "63779595-31f4-4ec4-9785-6ea25956d218")
 		(at -8.59 18.519179 -90)
@@ -9290,6 +9310,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "kibuzzard-6946CEA1"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "6cc51578-a618-4804-8e95-f6ceedaa782a")
 		(at -3.51 18.498631 -90)
@@ -9455,6 +9476,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Package_DIP:SMDIP-4_W9.53mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "6f473882-4fcc-41ee-90ff-28b81976ef4e")
 		(at 27.55 40.6)
@@ -9752,6 +9774,7 @@
 		)
 	)
 	(footprint "Package_DIP:SMDIP-4_W9.53mm"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "7c6256b1-c3ab-41f4-a0af-da56ba11a804")
 		(at 38.95 46.85)
@@ -10277,6 +10300,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "kibuzzard-6946CF95"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "813adaeb-bd21-45ca-9cf6-33e3584944e8")
 		(at -11.13 -2.640229 90)
@@ -10401,6 +10425,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "MountingHole:MountingHole_4.5mm_Pad_Via"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "822c8465-6fe8-4144-9159-158962c519ad")
 		(at -32.25 -17)
@@ -10700,6 +10725,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "MountingHole:MountingHole_4.5mm_Pad_Via"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8ad4ebd3-ef69-4c54-a744-fb5fe64b2396")
 		(at -32.25 17)
@@ -11771,6 +11797,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "kibuzzard-6946CF89"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "8fc0c3cb-607a-4994-9cf5-7b8705f4cf11")
 		(at -8.59 -2.978585 90)
@@ -11893,6 +11920,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "lcsc:CONN-TH_OQ0232510000G"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "9143b0ec-851f-4225-9fed-8b7ee2bc0ee6")
 		(at -19.9675 70.1025)
@@ -12145,6 +12173,7 @@
 		)
 	)
 	(footprint "kibuzzard-6946CF12"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "95c34335-640a-4b33-83b6-3a73dce97906")
 		(at 9.19 -2.242055 90)
@@ -12523,6 +12552,7 @@
 		)
 	)
 	(footprint "kibuzzard-6946CEAD"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "99505a0c-70c5-45c3-8a51-c05bb7dbb936")
 		(at -6.05 18.45 -90)
@@ -13321,6 +13351,7 @@
 		)
 	)
 	(footprint "footprints:StopNuVikings"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "abb05ed5-2085-4a72-91db-184df882c1ba")
 		(at -1.076514 -36.027769)
@@ -14414,6 +14445,7 @@
 		)
 	)
 	(footprint "footprints:MODULE_WIFI_KIT_32__V3_"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "af3bb5d9-d23f-4155-83c4-a06398aacec0")
 		(at -20.95 42 90)
@@ -15960,6 +15992,7 @@
 		)
 	)
 	(footprint "kibuzzard-6946CCA1"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b4c7e6d6-8a68-4306-ba60-403af1b7191e")
 		(at 16.81 -1.24 90)
@@ -16063,6 +16096,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "lcsc:CONN-TH_OQ0232510000G"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b6cb51c1-04ed-4a92-a1b1-fee06ee54bb0")
 		(at 4.0325 70.1025)
@@ -16327,6 +16361,7 @@
 		)
 	)
 	(footprint "kibuzzard-69470A2F"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "b6dd82fd-f5c2-4d68-978d-a22e0d401b7b")
 		(at 11.73 18.513699 -90)
@@ -16743,6 +16778,7 @@
 		)
 	)
 	(footprint "kibuzzard-6946CF52"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "ba98af65-56e6-4b6f-8a93-96d8a4686cc4")
 		(at -0.97 -1.241142 90)
@@ -17134,6 +17170,7 @@
 		)
 	)
 	(footprint "kibuzzard-6946CF2B"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "cc15fc45-7737-4fcd-a85f-837dcd9f5fbd")
 		(at 4.11 -2.238631 90)
@@ -17394,6 +17431,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "footprints:goatse_01"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d1310576-4eb3-4d8a-880e-e40cb7bb668f")
 		(at -20.95 42)
@@ -17401,7 +17439,7 @@
 			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ffc07585-f0b3-404b-971a-9e13c147b27d")
+			(uuid "f20e7286-dc39-4d22-a8ab-3817f0b2b9e0")
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17413,7 +17451,7 @@
 			(at 0.75 0 0)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "ec2618e7-7756-4de6-8ad8-d4b2a9279c83")
+			(uuid "25ce9749-2880-43c8-beb5-36a5ee3642e1")
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -17425,7 +17463,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "c07791ec-a7a3-4819-8eb2-16fc87604f5c")
+			(uuid "abc33625-b2e2-485a-853f-3c998519788f")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17437,7 +17475,7 @@
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "e0c38988-bc07-4087-9963-e9096477005f")
+			(uuid "4f004de7-0096-4102-b86e-260c4e49fda4")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17952,6 +17990,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "MountingHole:MountingHole_4.5mm_Pad_Via"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "d36ea43e-ce00-4ac3-ba2c-66b132a61c5b")
 		(at 32.25 -17)
@@ -18485,6 +18524,7 @@
 		)
 	)
 	(footprint "kibuzzard-6946CFA8"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "daaeb64d-438f-487d-af58-594725cf7f92")
 		(at -16.21 -2.625845 90)
@@ -19583,6 +19623,7 @@
 		)
 	)
 	(footprint "kibuzzard-6946CCA1"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "e3f7741c-6b59-4bcd-b57e-e978469ad451")
 		(at 1.57 17.5 -90)
@@ -19684,6 +19725,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "lcsc:CONN-TH_OQ0232510000G"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "e6ab5c43-9be8-4227-82d3-931a862bfbc3")
 		(at -30.9675 70.1025)
@@ -19949,6 +19991,7 @@
 		)
 	)
 	(footprint "kibuzzard-6946CE2E"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "e72feebd-530e-47df-b982-4022d40bcff5")
 		(at -11.13 18.50685 -90)
@@ -20106,6 +20149,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Symbol:OSHW-Logo2_9.8x8mm_SilkScreen"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "e87056fe-d387-4904-ba0b-09be2bfff35d")
 		(at 11 26.7)
@@ -20553,6 +20597,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_2x15_P2.54mm_Horizontal"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "e92bac15-2250-4f42-8cb0-a667ab027bab")
 		(at -18.75 14 90)
@@ -23762,6 +23807,7 @@
 		)
 	)
 	(footprint "kibuzzard-6946CCA1"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "eca78858-161f-41cb-8536-718b8bc51d98")
 		(at 1.57 -1.24 90)
@@ -23865,6 +23911,7 @@
 		(embedded_fonts no)
 	)
 	(footprint "MountingHole:MountingHole_4.5mm_Pad_Via"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "efcdbf1d-5814-47b2-961d-c81ddbbbb747")
 		(at 32.25 17)
@@ -24398,6 +24445,7 @@
 		)
 	)
 	(footprint "kibuzzard-6946CCA1"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "f1f21d1b-3064-47aa-be35-011a99f39eae")
 		(at -18.74 -1.24 90)
@@ -24735,6 +24783,7 @@
 		)
 	)
 	(footprint "kibuzzard-6946CE92"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "f66c0e43-0ddc-4452-b7d9-3aaa2d54f495")
 		(at 6.65 18.526028 -90)
@@ -25496,6 +25545,7 @@
 			(type dash_dot_dot)
 		)
 		(fill no)
+		(locked yes)
 		(layer "F.SilkS")
 		(uuid "15538e62-2664-4587-98bc-4cea373908f0")
 	)
@@ -25507,6 +25557,7 @@
 			(type dash_dot_dot)
 		)
 		(fill no)
+		(locked yes)
 		(layer "F.SilkS")
 		(uuid "7ef46377-b009-4eb8-abd8-18c8e90e3051")
 	)
@@ -25518,6 +25569,7 @@
 			(type dash_dot_dot)
 		)
 		(fill no)
+		(locked yes)
 		(layer "F.SilkS")
 		(uuid "dd16d429-3ba1-4739-9ba0-a79b88a665aa")
 	)
@@ -25529,6 +25581,7 @@
 			(type dash_dot_dot)
 		)
 		(fill no)
+		(locked yes)
 		(layer "F.SilkS")
 		(uuid "f4b418a5-c98e-4fe2-802e-f98778735287")
 	)
@@ -25635,6 +25688,7 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "0405f1db-1945-4b81-aa52-710b717a6f24")
 	)
@@ -25645,6 +25699,7 @@
 			(width 0.05)
 			(type solid)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "5e2d936f-4ecf-46aa-93c2-8476853d27e5")
 	)
@@ -25656,6 +25711,7 @@
 			(width 0.05)
 			(type solid)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "713d41ea-d5a8-4135-a1a5-e4fd50344980")
 	)
@@ -25666,6 +25722,7 @@
 			(width 0.05)
 			(type default)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "72f42a7a-d22b-40d3-9a63-84a7d1967e23")
 	)
@@ -25677,6 +25734,7 @@
 			(width 0.05)
 			(type solid)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "7c24ece0-0821-4ef3-a7b5-cef4bad4e8b1")
 	)
@@ -25688,6 +25746,7 @@
 			(width 0.05)
 			(type solid)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "8b3952a4-f875-45ba-8046-46b61b96cc59")
 	)
@@ -25698,6 +25757,7 @@
 			(width 0.05)
 			(type solid)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "b8a7d265-7195-438a-b313-4eed6c05411c")
 	)
@@ -25709,10 +25769,12 @@
 			(width 0.05)
 			(type solid)
 		)
+		(locked yes)
 		(layer "Edge.Cuts")
 		(uuid "ca210e61-a857-449b-9ca6-e25d60554906")
 	)
 	(gr_text "STOPNU"
+		(locked yes)
 		(at -14.625479 -10.13 0)
 		(layer "F.SilkS" knockout)
 		(uuid "15a6e664-1977-494b-9ea9-ae739f149406")
@@ -25727,6 +25789,7 @@
 		)
 	)
 	(gr_text "2025 Badge.Team\n\nOrange_Murker, Jhaand, \nNightOwl, Ranzbak, R3nz3,\nStoneshop\n\nCERN Open hardware License"
+		(locked yes)
 		(at -45.42 5 0)
 		(layer "F.SilkS")
 		(uuid "4eb7a754-9322-4b5b-8a9a-ed32251816d7")
@@ -25739,6 +25802,7 @@
 		)
 	)
 	(gr_text "https://github.com/badgeteam/stopnu-hardware"
+		(locked yes)
 		(at 45.45 22.8 90)
 		(layer "F.SilkS")
 		(uuid "a3455008-1481-4d0b-a487-5c0d4be1730f")
@@ -25749,6 +25813,31 @@
 				(bold yes)
 			)
 			(justify left bottom)
+		)
+	)
+	(gr_text "Heltec WiFi LoRa 32(V3), ESP32S3 + SX1262\nhttps://heltec.org/project/wifi-lora-32-v3/"
+		(at -37.5 51.1 0)
+		(layer "F.SilkS")
+		(uuid "db132b7e-29e1-48ab-a14f-3600fb64db1f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "IPEX connector side here"
+		(locked yes)
+		(at 6.7 32.5 90)
+		(layer "F.SilkS")
+		(uuid "e39b37b4-10f1-4eb1-8102-14773c095e88")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom mirror)
 		)
 	)
 	(gr_text "Bracket housing\nstay out"
