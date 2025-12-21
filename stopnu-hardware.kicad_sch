@@ -2995,6 +2995,15 @@
 		(uuid "457996a1-f46e-46d5-beda-a53cf39dd07c")
 	)
 	(bus_entry
+		(at 208.28 66.04)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46e454be-b661-4eff-9954-19cfcb5374ca")
+	)
+	(bus_entry
 		(at 142.24 41.91)
 		(size 2.54 -2.54)
 		(stroke
@@ -3002,6 +3011,15 @@
 			(type default)
 		)
 		(uuid "470f7320-65f3-4a5b-84ae-5103f975c90c")
+	)
+	(bus_entry
+		(at 208.28 63.5)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4743c1e3-88bd-40ed-a86a-92db0229e1cf")
 	)
 	(bus_entry
 		(at 142.24 49.53)
@@ -3364,6 +3382,15 @@
 		(uuid "f3c0a6f4-7fc3-4a49-b1e9-a18e7e256018")
 	)
 	(bus_entry
+		(at 208.28 68.58)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2a1bdd-719a-4e91-b887-fb287b8227c7")
+	)
+	(bus_entry
 		(at 142.24 59.69)
 		(size 2.54 -2.54)
 		(stroke
@@ -3571,6 +3598,16 @@
 			(type default)
 		)
 		(uuid "1c91e145-efc1-490b-a9b7-e37ec5a8b606")
+	)
+	(bus
+		(pts
+			(xy 208.28 66.04) (xy 208.28 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f3de825-9f31-4711-806c-2e3aa5aa42f5")
 	)
 	(wire
 		(pts
@@ -3994,7 +4031,7 @@
 	)
 	(bus
 		(pts
-			(xy 208.28 62.23) (xy 208.28 100.33)
+			(xy 208.28 62.23) (xy 208.28 63.5)
 		)
 		(stroke
 			(width 0)
@@ -4161,6 +4198,16 @@
 			(type default)
 		)
 		(uuid "6f25b372-866d-441e-b63a-2aa398806207")
+	)
+	(wire
+		(pts
+			(xy 210.82 66.04) (xy 231.14 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70a37445-b781-411a-844c-503fe9291e50")
 	)
 	(wire
 		(pts
@@ -4422,6 +4469,16 @@
 		)
 		(uuid "88bed6cf-f780-4d4e-a59f-503251659318")
 	)
+	(bus
+		(pts
+			(xy 208.28 68.58) (xy 208.28 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88d12ddf-5f30-49c1-b6c5-7dfd8dd424c9")
+	)
 	(wire
 		(pts
 			(xy 25.4 123.19) (xy 26.67 123.19)
@@ -4471,6 +4528,16 @@
 			(type default)
 		)
 		(uuid "8fb54fd2-e3fe-42e1-9c27-19a79bab5e4c")
+	)
+	(wire
+		(pts
+			(xy 210.82 71.12) (xy 231.14 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9536a51a-6b56-407c-8052-6040e8846e79")
 	)
 	(wire
 		(pts
@@ -5284,6 +5351,16 @@
 	)
 	(bus
 		(pts
+			(xy 208.28 63.5) (xy 208.28 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef4c140f-e5a2-4090-acd7-b1061572bbe7")
+	)
+	(bus
+		(pts
 			(xy 190.5 134.62) (xy 193.04 134.62)
 		)
 		(stroke
@@ -5404,6 +5481,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 68.58) (xy 231.14 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fded7bb2-2590-4618-a3a8-42beaf9589bf")
+	)
+	(wire
+		(pts
 			(xy 36.83 93.98) (xy 36.83 96.52)
 		)
 		(stroke
@@ -5511,6 +5598,16 @@
 			(justify left bottom)
 		)
 		(uuid "2e9d65fe-1966-476d-8bbe-4140edd228d6")
+	)
+	(label "GPIO41"
+		(at 212.09 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2ff17bd6-361e-4fdb-9244-d2c1481139c8")
 	)
 	(label "GPIO40"
 		(at 185.42 132.08 90)
@@ -5732,6 +5829,16 @@
 		)
 		(uuid "99fc1a75-4550-424d-a76c-ad146b555275")
 	)
+	(label "GPIO34"
+		(at 212.09 66.04 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9ac28523-47f8-45be-856f-2e9b46403b4f")
+	)
 	(label "MCU_RST"
 		(at 144.78 54.61 0)
 		(effects
@@ -5921,6 +6028,16 @@
 			(justify left bottom)
 		)
 		(uuid "da6f2d12-f97e-40af-b30a-508a0c6080f6")
+	)
+	(label "GPIO33"
+		(at 212.09 68.58 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dc369b9f-a792-4116-8528-8cdf434046a9")
 	)
 	(label "GPIO46"
 		(at 208.28 102.87 270)
@@ -10074,6 +10191,78 @@
 			(project "stopnu-hardware"
 				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9"
 					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 231.14 63.5)
+		(size 29.21 11.43)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ac82fbc4-eb7f-4822-ba91-f5f3c853b849")
+		(property "Sheetname" "Accelerometer"
+			(at 231.14 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "accelerometer.kicad_sch"
+			(at 231.14 76.1496 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "ACC_INT" output
+			(at 231.14 71.12 180)
+			(uuid "1e5d631c-e7f4-4456-86e4-493d350d994e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ACC_SCL" output
+			(at 231.14 68.58 180)
+			(uuid "c66ae1e7-0783-453e-8160-4d051f6f1afe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ACC_SDA" output
+			(at 231.14 66.04 180)
+			(uuid "2c4de2e6-0be2-46c7-93ce-858052ce5575")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "stopnu-hardware"
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9"
+					(page "11")
 				)
 			)
 		)

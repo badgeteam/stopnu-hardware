@@ -993,6 +993,10 @@
     [
       "9fd6a918-45bc-4af1-b3e2-71cdbd26c0f6",
       "power 5V in"
+    ],
+    [
+      "ac82fbc4-eb7f-4822-ba91-f5f3c853b849",
+      "Accelerometer"
     ]
   ],
   "text_variables": {}
