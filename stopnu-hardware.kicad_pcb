@@ -9646,7 +9646,7 @@
 				)
 			)
 		)
-		(property "Description" "BUTTON input 2"
+		(property "Description" "LED CTRL output 5V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -9688,6 +9688,19 @@
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c201847c-9767-443b-92a8-ebe9e2b5195c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label2" "BUT2"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "df227942-189d-48a3-801d-e02e7a6d11a1")
 			(effects
 				(font
 					(size 1 1)
@@ -11863,7 +11876,7 @@
 				)
 			)
 		)
-		(property "Description" "Button Input 3"
+		(property "Description" "LED CTRL output 5V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -11900,11 +11913,24 @@
 				)
 			)
 		)
-		(property "S" "S-3"
+		(property "S" "S-1"
 			(at 2.4675 -2.4525 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "1e603c28-93cd-48c1-bab1-cf34d1a3e0e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label2" "BUT1"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e2fb9ed1-dd3a-471b-aa8e-6d8d0b9b122c")
 			(effects
 				(font
 					(size 1 1)
@@ -19642,7 +19668,7 @@
 		(uuid "e7194025-48a9-4a4f-bece-6811f0007000")
 		(at 22.1325 70.1025)
 		(property "Reference" "CN8"
-			(at -2.3825 -4 0)
+			(at 0.4675 -4.0525 0)
 			(layer "F.SilkS")
 			(uuid "e36e297b-bbf1-4fd2-9d6e-d897f12756da")
 			(effects
@@ -19675,7 +19701,7 @@
 				)
 			)
 		)
-		(property "Description" "BUTTON input 3"
+		(property "Description" "LED CTRL output 5V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19712,7 +19738,7 @@
 				)
 			)
 		)
-		(property "S" "S-1"
+		(property "S" "S-3"
 			(at 2.4175 -2.4025 0)
 			(unlocked yes)
 			(layer "F.SilkS")
@@ -19729,6 +19755,19 @@
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
 			(uuid "fda7f65f-1c43-4ca1-9db7-b889f9513be7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Label2" "BUT3"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3d98e29f-61e3-438d-ba56-480543950fd0")
 			(effects
 				(font
 					(size 1 1)
