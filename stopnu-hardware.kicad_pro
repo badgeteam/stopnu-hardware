@@ -659,6 +659,9 @@
       "/power 5V in/GND_EXT": [
         "Supply"
       ],
+      "GND": [
+        "Supply"
+      ],
       "Net-(JP2-A)": [
         "Supply"
       ],
