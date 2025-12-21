@@ -35347,6 +35347,42 @@
 		)
 	)
 	(zone
+		(net 20)
+		(net_name "/LED control output 1/DOUT")
+		(layer "F.Cu")
+		(uuid "72b8b08d-36a1-4aba-b037-4406635aa5c1")
+		(name "$teardrop_padvia$")
+		(hatch none 0.1)
+		(priority 30000)
+		(attr
+			(teardrop
+				(type padvia)
+			)
+		)
+		(connect_pads yes
+			(clearance 0)
+		)
+		(min_thickness 0.0254)
+		(filled_areas_thickness no)
+		(fill yes
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+			(island_removal_mode 1)
+			(island_area_min 10)
+		)
+		(polygon
+			(pts
+				(xy 17.0325 67.1025) (xy 16.8325 67.1025) (xy 16.094533 68.1025) (xy 17.3325 69.3535) (xy 18.125865 68.1025)
+			)
+		)
+		(filled_polygon
+			(layer "F.Cu")
+			(pts
+				(xy 17.0325 67.1025) (xy 16.8325 67.1025) (xy 16.094533 68.1025) (xy 17.3325 69.3535) (xy 18.125865 68.1025)
+			)
+		)
+	)
+	(zone
 		(net 29)
 		(net_name "/GPIO02")
 		(layer "F.Cu")
