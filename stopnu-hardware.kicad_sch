@@ -2686,10 +2686,10 @@
 		(uuid "d83daac5-bebd-4f30-998b-f10986221371")
 	)
 	(junction
-		(at 68.58 57.15)
+		(at 68.58 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "e5a5027d-4282-4126-b814-73488d5d7a2c")
+		(uuid "dce71e24-67d8-41a1-aec4-401cde14d48d")
 	)
 	(junction
 		(at 142.24 63.5)
@@ -3841,16 +3841,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 57.15) (xy 77.47 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bfa9261-cc83-4e51-b9f2-1f797f8c3da2")
-	)
-	(wire
-		(pts
 			(xy 219.71 111.76) (xy 219.71 124.46)
 		)
 		(stroke
@@ -4571,7 +4561,7 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 54.61) (xy 77.47 54.61)
+			(xy 33.02 54.61) (xy 68.58 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4608,6 +4598,16 @@
 			(type default)
 		)
 		(uuid "bd355644-1129-4a78-aa8c-21d1bbfea232")
+	)
+	(wire
+		(pts
+			(xy 36.83 57.15) (xy 36.83 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be08ce1b-cc71-450d-8dcb-554726abc391")
 	)
 	(bus
 		(pts
@@ -4931,6 +4931,16 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 54.61) (xy 77.47 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddf140ef-f892-4cfe-88c7-a556a1f54418")
+	)
+	(wire
+		(pts
 			(xy 40.64 157.48) (xy 40.64 161.29)
 		)
 		(stroke
@@ -4991,16 +5001,6 @@
 	)
 	(wire
 		(pts
-			(xy 33.02 57.15) (xy 68.58 57.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e67ef455-653d-42f3-b86e-aca4517c3381")
-	)
-	(wire
-		(pts
 			(xy 199.39 93.98) (xy 201.93 93.98)
 		)
 		(stroke
@@ -5031,7 +5031,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 57.15) (xy 68.58 60.96)
+			(xy 68.58 54.61) (xy 68.58 60.96)
 		)
 		(stroke
 			(width 0)
@@ -5148,6 +5148,16 @@
 			(type default)
 		)
 		(uuid "f655c778-b012-453e-a048-7e60f18b0dce")
+	)
+	(wire
+		(pts
+			(xy 33.02 57.15) (xy 36.83 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f665e39d-a65a-4117-8c7f-aaf189809945")
 	)
 	(bus
 		(pts
@@ -6735,6 +6745,71 @@
 			(project "stopnu-hardware"
 				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9"
 					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 36.83 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4ab6db67-8f46-4f94-abf7-06c0cfd670c9")
+		(property "Reference" "#PWR055"
+			(at 36.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 36.83 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 36.83 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fd7812b3-96e0-4236-a835-fe1aaba255d7")
+		)
+		(instances
+			(project "stopnu-hardware"
+				(path "/4ab90003-ea4c-4878-8117-f834ac24f8d9"
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -9103,16 +9178,6 @@
 		(pin "V_AMLIGHT_COL" output
 			(at 77.47 54.61 180)
 			(uuid "4e1fa3dc-e8c1-4d45-862d-d1291c4f15ac")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "V_AMLIGHT_EM" output
-			(at 77.47 57.15 180)
-			(uuid "81e64dbc-f5b4-4b64-a4b0-214d45336031")
 			(effects
 				(font
 					(size 1.27 1.27)
