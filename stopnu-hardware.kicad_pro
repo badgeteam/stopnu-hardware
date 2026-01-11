@@ -64,6 +64,10 @@
           ""
         ],
         [
+          "lib_footprint_mismatch|-989170|-35466626|abb05ed5-2085-4a72-91db-184df882c1ba|00000000-0000-0000-0000-000000000000",
+          ""
+        ],
+        [
           "silk_edge_clearance|-15567500|78000000|b8a7d265-7195-438a-b313-4eed6c05411c|c27dba18-f2b0-4f10-8e6b-59abf68db5d7",
           ""
         ],
@@ -180,7 +184,11 @@
           ""
         ],
         [
-          "silk_overlap|-19180000|6500000|8267d18b-5bd7-4580-bf5b-6c9cd422f32a|b5911322-6e0e-4860-9536-ecf0331e88f2",
+          "silk_overlap|-18320000|6500000|8267d18b-5bd7-4580-bf5b-6c9cd422f32a|b5911322-6e0e-4860-9536-ecf0331e88f2",
+          ""
+        ],
+        [
+          "silk_overlap|-23121888|-21083818|d9098a86-f1f4-41d4-8edc-3a58635f3388|dd16d429-3ba1-4739-9ba0-a79b88a665aa",
           ""
         ],
         [
@@ -241,6 +249,10 @@
         ],
         [
           "silk_overlap|2000000|6500000|8267d18b-5bd7-4580-bf5b-6c9cd422f32a|ca2bc1d2-c97c-480d-a119-fb3df8dfe7aa",
+          ""
+        ],
+        [
+          "silk_overlap|26164311|-24935011|463a861a-4cf3-4c61-8224-f18a5536505c|7ef46377-b009-4eb8-abd8-18c8e90e3051",
           ""
         ],
         [
@@ -352,7 +364,7 @@
         "min_track_width": 0.0,
         "min_via_annular_width": 0.1,
         "min_via_diameter": 0.5,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -909,13 +921,13 @@
           "group_by": false,
           "label": "LCSC",
           "name": "LCSC",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "LCSC Part",
           "name": "LCSC Part",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -1023,6 +1035,30 @@
           "group_by": false,
           "label": "#",
           "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Label2",
+          "name": "Label2",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "S",
+          "name": "S",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "5V",
+          "name": "5V",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "GND",
+          "name": "GND",
           "show": false
         }
       ],
